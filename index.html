@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="kk">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>HACKER WORLD</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>⚡ HACKER WORLD</h1>
+
+    <p>Welcome to the Cybersecurity World</p>
+
+  </header>
+
+  <nav>
+
+    <a href="#home">Home</a>
+
+    <a href="#learning">Learning</a>
+
+    <a href="#chatbot">AI Chat</a>
+
+  </nav>
+
+  <main>
+
+    <section id="home">
+
+      <h2>Welcome, Hacker!</h2>
+
+      <p>Learn programming and cybersecurity.</p>
+
+    </section>
+
+    <section id="learning">
+
+      <h2>Learning Center</h2>
+
+      <div class="courses">
+
+        <button onclick="lesson('HTML')">HTML</button>
+
+        <button onclick="lesson('CSS')">CSS</button>
+
+        <button onclick="lesson('JavaScript')">JavaScript</button>
+
+        <button onclick="lesson('Cybersecurity')">Cybersecurity</button>
+
+      </div>
+
+      <div id="courseContent">
+
+        <p>Choose a course to start learning.</p>
+
+      </div>
+
+    </section>
+
+    <section id="chatbot">
+
+      <h2>🤖 HACKER WORLD AI</h2>
+
+      <p>Ask me a question!</p>
+
+      <div id="chatMessages">
+
+        <p class="bot">🤖 Hello! How can I help you?</p>
+
+      </div>
+
+      <input id="userQuestion" placeholder="Write your question...">
+
+      <button onclick="sendQuestion()">Send</button>
+
+    </section>
+
+  </main>
+
+  <footer>
+
+    <p>©️ 2026 HACKER WORLD | Learn. Explore. Protect.</p>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
